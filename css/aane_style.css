@@ -1,11 +1,44 @@
 body {
-	padding: 2% 5% 5% 5%;
-	background-color: #faf6ef;
-	font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+	background-image: url('https://dev.digitalgizmo.com/aane-model/images/bkgrnd.jpg');
+	font-family: 'Arial Narrow', Arial, sans-serif;
 	font-size: medium;
 	color: #333333;
 }
-section {clear: both; margin-top: 5em;}
+
+header nav ul li {
+	display: inline-block;
+}
+
+section.wrapper {
+	background-color: #FFF;
+	padding: 2% 5%;
+}
+
+footer {
+	background-color: #96801A;
+}
+
+footer nav {
+	text-align: center;
+}
+
+footer nav ul	{
+    list-style-type: none;
+    font-size: 85%;
+    font-weight: normal;
+    padding: 1em 0;
+    margin: 0;
+}
+footer nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+footer nav ul li a {
+	color: #f9f2c2;
+	margin: 0 2em;
+}
 
 /*style for heads and subheads*/
 h1, h2, h3 {	color: #171849; font-weight: bold;	}
@@ -47,11 +80,7 @@ ul.unstyledlist li	{ line-height: 1.5em;}
 a:link		{	color: #333399; text-decoration: none;	}
 a:visited	{	color: #666699; text-decoration: none;	}
 a:hover		{	text-decoration: underline;	}
-nav ul	{
-	list-style-type: none;
-	font-size: 85%;
-	font-weight: normal;
-}
+
 
 /* by Don */
 
@@ -85,8 +114,4 @@ nav ul	{
 .volume-sublist {
 	margin-block-start: 0em;
 	margin-block-end: .5em;
-}
-
-.site-heading {
-	margin-bottom: .3em;
 }
