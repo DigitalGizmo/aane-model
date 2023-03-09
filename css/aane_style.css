@@ -1,12 +1,45 @@
 body {
 	background-image: url('https://dev.digitalgizmo.com/aane-model/images/bkgrnd.jpg');
-	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Fira Sans Condensed', 'Arial Narrow', sans-serif;
 	font-size: medium;
 	color: #333333;
 }
 
+.landing {
+    color: #f9f2c2;	
+}
+
+header{
+	padding: 0.125em 5%;
+}
+
+header h3 {
+	color: #CCB02F;
+	float: left;
+	font-size: 1.5em;
+}
+
+header nav {
+    text-align: right;
+}
+
 header nav ul li {
 	display: inline-block;
+}
+
+header nav ul li a  {
+    color: #f9f2c2;
+    padding: 0.75em;
+    display: inline-block;
+    background-color: #96801A;
+    margin: 0 .25em;
+    width: 140px;
+    border-radius: 60px;
+    border: 1px solid #CCB02F;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-decoration: none;
 }
 
 section.wrapper {
@@ -40,6 +73,10 @@ footer nav ul li a {
 	margin: 0 2em;
 }
 
+ul {
+	padding: 0;
+	list-style-type: none;
+}
 /*style for heads and subheads*/
 h1, h2, h3 {	color: #171849; font-weight: bold;	}
 h1 {	font-size: 150%;	}
@@ -77,9 +114,9 @@ ul.unstyledlist li	{ line-height: 1.5em;}
 .faint	{color: #bbb; margin-top: 4em;}
 .breadcrumbs	{font-size: .8em;}
 /*style for links*/
-a:link		{	color: #333399; text-decoration: none;	}
-a:visited	{	color: #666699; text-decoration: none;	}
-a:hover		{	text-decoration: underline;	}
+section a:link		{	color: #29439c; text-decoration: none;	}
+section a:visited	{	color: #29439c; text-decoration: none;	}
+section a:hover		{	text-decoration: underline;	}
 
 
 /* by Don */
