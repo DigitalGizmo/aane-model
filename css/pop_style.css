@@ -51,9 +51,6 @@
     right: 0;
     top: 0;
     z-index: 100;
-}
-
-.artifact, .document, .about, .video {
     max-height: 85%;
     width: 85%;
 }

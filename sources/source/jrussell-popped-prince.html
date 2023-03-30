@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>African Americans in the Record - Sources</title>
     <link rel="stylesheet" href="../../css/aane_style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="../../css/pop_style.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
@@ -1376,36 +1375,45 @@
 
 <!-- Begin Slim-pop -->
 <div id="slimpop-overlay" class="unhidden"></div>
-<div id="slimpop-container" class="slimpop-basic document"><
+<div id="slimpop-container" class="slimpop-basic"><
     <div id="slimpop-wrapper">
-        <div class="slim-border">
+        <div class="slim-info">
         <p class="slimpop-close">
-            <a href="jrussell-popped.html">prev</a> |
-            <a href="jrussell-to-pop.html">close</a> | next
+            <a href="jrussell-popped.html">&larr; previous</a> | <a href="">next &rarr;</a>
+            <a href="jrussell-acct-bk.html"><span class="close"></span></a>
         </p>
 
+        <h1 class="slim-title">Elijah Williams Day Book</h1>
+        <div class="slim-entry">
+            <h4>Entry</h4>
+            <p>Lorem ipsum blah blah blah</p>
+        </div>
 
-        <dl>
-            <dt>Source:</dt>
-            <dd>Elijah Williams Day Book</dd>
-            <dt>Volume:</dt>
-            <dd>March 7, 1757 - Oct 15, 1757; Volume 9</dd>
-            <dt>Date:</dt>
-            <dd>1757 Jun 29
-            </dd>
-            <dt>File:</dt>
-            <dd>L22-506-012</dd>
-            <dt>Entry:</dt>
-            <dd>Abijah Prince Dr To _ lb chocolat 0/10</dd>
-            <dt>Monetary Transaction:</dt>
-            <dd>/10
-            </dd>
-        </dl>
+        <div class="slim-details">
+            <h4>Details</h4>
+            <dl>
+                <dt>Source:</dt>
+                <dd>Elijah Williams Day Book</dd>
+                <dt>Volume:</dt>
+                <dd>March 7, 1757 - Oct 15, 1757; Volume 9</dd>
+                <dt>Date:</dt>
+                <dd>1757 Jun 29
+                </dd>
+                <dt>File:</dt>
+                <dd>L22-506-012</dd>
+                <dt>Entry:</dt>
+                <dd>Abijah Prince Dr To _ lb chocolat 0/10</dd>
+                <dt>Monetary Transaction:</dt>
+                <dd>/10
+                </dd>
+            </dl>
+        </div><!-- /slim-details -->
+    </div><!-- /slim-info -->
+
+    <div id="openseadragon1" style=" height: 80vh; background-color: #EEE;"></div> 
         
-        <div id="openseadragon1" style=" height: 80vh; background-color: #EEE;"></div> 
-        
-        <script src="../../js/openseadragon.min.js"></script>
-        <script type="text/javascript">
+    <script src="../../js/openseadragon.min.js"></script>
+    <script type="text/javascript">
             var viewer = OpenSeadragon({
                 id: "openseadragon1",
                 minZoomImageRatio: 0.8,
@@ -1413,13 +1421,8 @@
                 prefixUrl: "../../js/images/",
                 tileSources: "https://img.americancenturies.org/iiif/3/aane|L22-506-012.jp2/info.json"
             });
-        </script>
+    </script>
       
-
-
-
-        
-        </div><!--slim-border -->
     </div><!--slimpop-wrapper -->
 </div> <!-- slimpop-container -->
 </body>
