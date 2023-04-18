@@ -133,7 +133,19 @@ header nav ul li a.sources:hover, header nav ul li a.sources.selected {
 
 section.wrapper {
 	background-color: #FFF;
-	padding: 2% 5%;
+	padding: 0 5% 2% 5%;
+}
+
+section.wrapper.sources {
+	border-top: 36px solid #29439C;
+}
+
+section.wrapper.opersons {
+	border-top: 36px solid #BC4D02;
+}
+
+section.wrapper.aapersons {
+	border-top: 36px solid #96801A;
 }
 
 footer {
@@ -219,14 +231,15 @@ dd:after {content: "."; color: #faf6ef;}
 ul.unstyledlist	{list-style-type: none; padding-left: 0;}
 ul.unstyledlist li	{ line-height: 1.5em;}
 
-.small	{	font-size: .75em; }
-.faint	{color: #bbb; margin-top: 4em;}
-.breadcrumbs	{font-size: .8em;}
-
 /*style for links*/
 section a:link		{	color: #29439C; text-decoration: none;	}
 section a:visited	{	color: #2D3F72; text-decoration: none;	}
 section a:hover		{	color: #96801A ;text-decoration: underline;	}
+
+.small	{	font-size: .75em; }
+.faint	{color: #bbb; margin-top: 4em;}
+.breadcrumbs	{font-size: .8em; margin-top: -24px; color: white;}
+.breadcrumbs a:visited, .breadcrumbs a:link {color: white;}
 
 
 /* styles for modal window */
