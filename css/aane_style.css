@@ -34,35 +34,36 @@ body {
 }
 .landing nav a {
     color: #f9f2c2;
-    opacity: .7;
+    opacity: .9;
     height: 80px;
-    padding: 0.75em;
+    padding: 1.25em 0 0 0;
     display: inline-block;
-    background-color: #96801A;
-    margin: 10% .25em;
+    background-color: #9B4D18;
+    margin: 15% .25em;
     width: 250px;
     border-radius: 100px;
-    border: 1px solid #CCB02F;
+    border: 1px solid #D35C0B;
     text-align: center;
     text-transform: uppercase;
-    font-size: ;
     text-decoration: none;
 }
 .landing nav a span {
 	font-weight: 200;
 	display: block;
 }
+
 header{
 	padding: 0.125em 5%;
 }
 
-header h3 a {
+header h3 a { /* global link to landing */
 	color: #CCB02F;
 	float: left;
 	font-size: 1.5em;
 	text-decoration: none;
 }
 
+ /* global links to browse sections */
 header nav {
     text-align: right;
 }
@@ -75,11 +76,11 @@ header nav ul li a:link, header nav ul li a:visited  {
     color: #f9f2c2;
     padding: 0.75em;
     display: inline-block;
-    background-color: #96801A;
+    background-color: #BC4D02;
     margin: 0 .25em;
     width: 140px;
     border-radius: 60px;
-    border: 1px solid #CCB02F;
+    border: 1px solid #D35C0B;
     text-align: center;
     text-transform: uppercase;
     font-size: .9em;
@@ -87,12 +88,13 @@ header nav ul li a:link, header nav ul li a:visited  {
 }
 
 header nav ul li a:hover, header nav ul li a.selected {
-	background-color: #d3ad0d;
+	background-color: #D35C0B;
 }
 
 section.wrapper {
 	background-color: #FFF;
-	padding: 2% 5%;
+    border-top: 36px solid #BC4D02;
+    padding: 0 5% 2% 5%;
 }
 
 footer {
@@ -180,7 +182,8 @@ ul.unstyledlist li	{ line-height: 1.5em;}
 
 .small	{	font-size: .75em; }
 .faint	{color: #bbb; margin-top: 4em;}
-.breadcrumbs	{font-size: .8em;}
+.breadcrumbs    {font-size: .8em; margin-top: -28px; font-weight: 200 !important; color: white;}
+.breadcrumbs a:visited, .breadcrumbs a:link {color: white; font-weight: 200 !important;}
 
 /*style for links*/
 section a:link		{	color: #29439C; text-decoration: none;	}
@@ -273,7 +276,6 @@ section a:hover		{	color: #96801A ;text-decoration: underline;	}
     opacity: 0.3;
 }
   
-}
 h1.slim-title {
     grid-column: 1;
     grid-row: 1;
